@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rockndo.customcard.MainActivity">
+
+    <ImageView
+        android:src="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Holidays!"
+        android:textAlignment="center"
+        android:layout_margin="32dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:fontFamily="cursive"
+        android:textSize="64sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Moving Forward. One square at a time!"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@id/textView"
+        android:textAlignment="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:padding="32dp"
+        android:background="@android:color/background_light"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, US"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:padding="8dp"
+        android:textSize="32sp"/>
+</RelativeLayout>
