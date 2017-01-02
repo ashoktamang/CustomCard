@@ -25,6 +25,7 @@
         android:id="@+id/textView" />
 
     <TextView
+        android:id="@+id/holiday_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Keep Moving Forward. One square at a time!"
@@ -42,8 +43,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="From, US"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/holiday_message"
         android:layout_alignParentRight="true"
+        android:layout_margin="32dp"
         android:fontFamily="cursive"
         android:textColor="@android:color/white"
         android:padding="8dp"
